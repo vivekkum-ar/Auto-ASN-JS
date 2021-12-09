@@ -1,3 +1,6 @@
+#By Vivek Kumar
+
+// Enter the credentials to automate login flow via JS
 javascript: (function () {
   function autofull(ele, val) {
     if (document.getElementById(ele) && val != "") {

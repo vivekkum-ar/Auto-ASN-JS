@@ -13,7 +13,7 @@ javascript: (function () {
   document.getElementById("Button1").click();
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Navigates to CreateASN page
 javascript: (function () {
   javascript: {
@@ -22,7 +22,7 @@ javascript: (function () {
   }
 })();
 
-
+//***************************************************************************************************************************************************************************
 // From the create ASN page fetches the CreateASN text and Vendor name alongwith Vendor code
 javascript: (function () {
   javascript: {
@@ -36,7 +36,7 @@ javascript: (function () {
   }
 })();
 
-
+//***************************************************************************************************************************************************************************
 // On the fill details page autofill the details. Only requires the mandatory fields
 javascript: (function () {
   function autofull(ele, val) {
@@ -52,7 +52,7 @@ javascript: (function () {
   autofull("ctl00_ContentPlaceHolder1_TextBox4", "inv_date");
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Auto fetches the partnumbers and passes it to the front 
 javascript: (function() {
     javascript: {
@@ -62,7 +62,7 @@ javascript: (function() {
 })();
 
 
-
+//***************************************************************************************************************************************************************************
 // Clicks and submits the filled details page to view checkrow
 javascript: (function () {
   function autofull(ele, val) {
@@ -73,7 +73,7 @@ javascript: (function () {
   document.getElementById("ctl00_ContentPlaceHolder1_Button1").click();
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Auto checks the Checkrow's radiobutton
 javascript: (function () {
   function autofull(ele, val) {
@@ -86,7 +86,7 @@ javascript: (function () {
     .click();
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Autofills/Autoselects PM-0100-Box
 javascript: (function () {
   function autofull(ele, val) {
@@ -104,7 +104,7 @@ javascript: (function () {
   );
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Only Quantity needs to be fed. Others are autofilled like no of box etc.
 javascript: (function () {
   function autofull(ele, val) {
@@ -121,7 +121,7 @@ javascript: (function () {
   document.getElementById("ctl00_ContentPlaceHolder1_Button2").click(); // this submit brings the user to final quality report upload page
 })();
 
-
+//***************************************************************************************************************************************************************************
 // Final Submit
 javascript: (function () {
   function autofull(ele, val) {

@@ -53,6 +53,16 @@ javascript: (function () {
 })();
 
 
+// Auto fetches the partnumbers and passes it to the front 
+javascript: (function() {
+    javascript: {
+        var values = Array.from(document.getElementById("ctl00_ContentPlaceHolder1_DropDownList3").options).map(e => e.value);
+        return values;
+    }
+})();
+
+
+
 // Clicks and submits the filled details page to view checkrow
 javascript: (function () {
   function autofull(ele, val) {
